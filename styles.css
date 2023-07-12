@@ -197,7 +197,7 @@ body{
 	transition: transform .5s;
 	text-align: center;
 	border-color: #000000;
-	box-shadow: 7px 7px 3px#343434;
+	
 	font-family: adidas;
 }
 
@@ -440,7 +440,7 @@ body{
 			transition: transform .5s;
 			text-align: center;
 			border-color: #343434;
-			box-shadow: 7px 7px 20px#343434;
+			
 			font-family: adidas;
 		}
 
