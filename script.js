@@ -1,54 +1,44 @@
 
 const quiz =[
     {	
-        q:'qual é seu nome duda?',
-        options:['Bill Russel','Abdul-Jabbar','Stephen Curry'],
+        q:'Em quais momentos podemos usar o adptil difusor ?',
+        options:['Em caso de agressividade entre os cães.','Na mudança de ambiente, introdução, adaptação a chegada de um novo filhote em casa, medos de barulhos (fogos).','Pode ser usado como sedativo no momento de estresse.'],
         answer:1
     },
     {
-        q:'O EMMNXT tem como objetivo transformar a jornada do consumidor em loja.....',
-        options:['Mais objetiva','O conectando, engajando e inspirando','Através da técnica F.A.B','Mais divertida'],
+        q:'Quando podemos indicar o feliway friends?',
+        options:['sua composição provoca incômodo, então devemos usar como forma de punição.','No auxilio para diminuição das brigas e sinais de conflitos entre gatos.','È necessario usar quando o animal tem boa convivencia com o outro integrante da casa.'],
         answer:1
     },
     {	
-        q:'O programa especialista running e women foi criado com intuito de...',
-        options:['Diminuir a conversão nas lojas','Diminuir o turnover','Trazer colaboradores mais capacitados em lojas'],
+        q:'Quando indicamos o feliway classic difusor e spray ?',
+        options:['No momento de brigas e conflitos intensos entre os gatos.','O spray è indicado para espirrar no rosto do animal.','Na mudança de ambiente, introdução de novos integrantes e medo de barulho.'],
         answer:2
     },
     {	
-        q:'O tênis 4DFWD possui uma tecnologia que gera retorno de energia te impulsionando para..',
-        options:['Cima economizando passos','Ambos os lados','Frente economizando passos','Para trás reduzindo passos'],
+        q:'Quais vermifugos da nossa linha trata além dos vermes a giardia?',
+        options:['Apenas o canex premium.','Nenhuma das alternativas.','Canex premium e canex plus 3.'],
         answer:2
     },
     {	
-        q:'Em que ano nasce oficialmente a Adidas? e em que cidade ela foi instalada inicialmente?',
-        options:['1948 em Oberhausen','1949 em Herzogenarauch','1949 em Lyon (Rhône-Alpes)','1951 em Hanôver'],
+        q:'Qual vermifugo trata o verme do coração?',
+        options:['nenhuma das alternativas.','canex premium','Canex plus 3'],
         answer:1
     },
     {	
-        q:"Em 2022 abriu uma loja conceito com 700m2 em formato stadium na Av.Paulista que loja foi essa?",
-        options:['City Center','Top Center','Nomura center','Bourbon center'],
-        answer:1
+        q:"Qual vermifugo è indicado para cadelas prenhas e trata o verme trichuris vulpis?",
+        options:['Linha Canex Plus.','Linha Canex premium ','Linha Petzi plus.'],
+        answer:2
     },
     {	
-        q:"Qual objetivo do programa in store coach?",
-        options:["Ter maior produtividade e rentabilidade junto ao time de vendas","Conhecer os produtos","Aprender sobre a cultura da adidas somente","Aumentar o turnover"],
+        q:"O que o Vectra cães 3D previne?",
+        options:["Contra pulga, carrapato e repele mosquitos e flebotomos.","Apenas contra Pulga.","contra pulgas e carrapatos apenas."],
         answer:0
     },
     {
-        q:"Na campanha de incentivo VENDE QUE É GOL tivemos 15 vencedores de lojas BCS, que loja ficou em 1° lugar?",
-        options:["BCS- Rio Branco, Via Verde","BCS- Rio Porto-Alegre","BCS- Brasilia, Iguatemi","BCS- Foz do Iguaçu, Cataratas"],
+        q:"Vectra 3D tem ação de quantos meses para pulgas em caes e gatos?",
+        options:["Ação de 2 meses para caes e gatos","Ação de 1 mês para caes e 2 meses para gatos.","Ação de 1 mês para caes e gatos."],
         answer:0
-    },
-    {
-        q:"Sabemos que o jeans utiliza muita água em sua confecção, quantos litros é utilizado para confecção de 2 peças de jeans?",
-        options:["500 a 800 litros","1000 litros","6.800 a 8.000 litros"],
-        answer:2
-    },
-    {
-        q:"Qual evento que temos em Q2 e Q4 ?",
-        options:["EMMNXT","Key players","Bootcamp"],
-        answer:2
     },
     ]
     

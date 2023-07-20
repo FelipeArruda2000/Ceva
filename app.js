@@ -26,7 +26,7 @@ function setAvailableQuestions(){
 //set question number and question and options
 function getNewQuestion(){
  	//set question number
- 	questionNumber.innerHTML="Questão "+(questionCounter+1)+" de 10";
+ 	questionNumber.innerHTML="Questão "+(questionCounter+1)+" de 8";
 	
 
  	//set question text
@@ -54,7 +54,7 @@ function getNewQuestion(){
  	}
 
  	optionsContainer.innerHTML='';
- 	let animationDelay = 0.15;
+ 	let animationDelay = 0.10;
 	//create options in HTML
 	for(let i=0;i<optionLen; i++){
 		//random option
@@ -71,7 +71,7 @@ function getNewQuestion(){
 		option.innerHTML=currentQuestion.options[optionIndex];
 		option.id=optionIndex;
 		option.style.animationDelay = animationDelay+'s';
-		animationDelay=animationDelay+0.15;
+		animationDelay=animationDelay+0.10;
 		option.className="option";
 		optionsContainer.appendChild(option);
 		option.setAttribute("onclick","getResult(this)");
@@ -124,7 +124,7 @@ function unclickableOptions() {
 function answerIndicator(){
 	answerIndicatorContainer.innerHTML = '';
 	const totalQuestions = quiz.length;
-	for(let i=0; i<10; i++){
+	for(let i=0; i<8; i++){
 		const indicator = document.createElement("div");
 		answerIndicatorContainer.appendChild(indicator);
 	}
@@ -135,7 +135,7 @@ function updateAnswerIndicator(markType){
 
 
 function next(){
-	if(questionCounter===10){
+	if(questionCounter===8){
 		console.log("Quiz Over!");
 		quizOver();
 	}
