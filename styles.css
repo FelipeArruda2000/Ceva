@@ -102,6 +102,35 @@ body{
 	font-family: adidas;
 }
 
+.botão-final a {
+	background-color: #000000;
+	text-align: center;
+	color: #ffffff;
+	padding: 15px;
+	border-radius: 6px;
+	font-size: 15px;
+	transition: transform .4s;
+	text-decoration: none;
+	text-shadow: 10px 2px 1px#060606;
+	font-family: adidas;
+	
+}
+
+.botão-final{
+
+	transition: transform .4s;
+	margin-top: 60px;
+}
+.botão-final:hover{
+	transform: scale(1.1);
+}
+
+
+.botão-final a:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
 
 
 #logo-frente{
